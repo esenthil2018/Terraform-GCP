@@ -131,3 +131,9 @@ variable "services_name" {
   description = "services name"
   default     = "gke-terraform-service"
 }
+variable "gke_region" {
+    description = "The region for the GCS bucket"
+    type        = string
+    default     = "us-west1"
+}
+
