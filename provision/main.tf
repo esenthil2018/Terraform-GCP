@@ -19,4 +19,5 @@ locals {
     region = var.region == null ? var.subnet_region : var.region
 }
 
-
+data "google_compute_zones" "available" {
+}
