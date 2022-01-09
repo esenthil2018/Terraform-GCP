@@ -108,20 +108,20 @@ variable "pipelines_sa_name" {
 
 variable "cluster_name" {
   description = "The name for the GKE cluster"
-  default     = "MLOpsGKE"
+  default     = "mlopsgke"
 }
 variable "env_name" {
   description = "The environment for the GKE cluster"
-  default     = "Production"
+  default     = "production"
 }
 
 variable "network" {
   description = "The VPC network created to host the cluster in"
-  default     = "MLOpsGKE-network"
+  default     = "mlopsgke-network"
 }
 variable "subnetwork" {
   description = "The subnetwork created to host the cluster in"
-  default     = "MLOpsGKE-subnet"
+  default     = "mlopsgke-subnet"
 }
 variable "pods_name" {
   description = "pods name"
