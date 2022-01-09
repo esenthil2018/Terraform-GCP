@@ -56,4 +56,3 @@ module "gke" {
     },
   ]
 }
-Cr
