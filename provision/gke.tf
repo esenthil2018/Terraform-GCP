@@ -49,7 +49,7 @@ module "gke" {
     {
       name                      = "node-pool"
       machine_type              = "e2-medium"
-      node_locations            = "us-west1"
+      node_locations            = var.zone
       min_count                 = 1
       max_count                 = 2
       disk_size_gb              = 30
